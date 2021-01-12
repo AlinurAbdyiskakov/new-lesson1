@@ -9,5 +9,5 @@ firstName = "Al";
 alert(firstName);
 lastName ="abdy";
 alert(lastName);
-placeOfBirth = (Boz);
+placeOfBirth = "Boz";
 alert(placeOfBirth);
