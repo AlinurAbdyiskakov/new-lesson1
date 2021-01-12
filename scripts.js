@@ -12,4 +12,7 @@ placeOfBirth = "Boz";
 alert(firstName);
 alert(lastName);
 alert(placeOfBirth);
-console.log(firstName)
+
+console.log(firstName);
+console.log(lastName);
+console.log(placeOfBirth);
