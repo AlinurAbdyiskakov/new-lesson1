@@ -18,4 +18,8 @@ alert(placeOfBirth);
 // console.log(placeOfBirth);
 
 let message = "My name is " + firstName + ", my last name is " + lastName +",I,m from " + placeOfBirth ;
+
 console.log(message);
+let message1 = "My name is " + firstName + ", my last name is " + lastName +",I,m from " + placeOfBirth +
+ ".I'm[A] years old.";
+console.log(message1);
