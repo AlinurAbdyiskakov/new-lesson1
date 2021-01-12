@@ -17,5 +17,5 @@ alert(placeOfBirth);
 // console.log(lastName);
 // console.log(placeOfBirth);
 
-let message = "My name is " + firstName + ", my last name is " + lastName +",I,m from " + placeOf Birth + "";
+let message = "My name is " + firstName + ", my last name is " + lastName +",I,m from " + placeOfBirth ;
 console.log(message);
