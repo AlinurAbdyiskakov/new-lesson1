@@ -6,8 +6,10 @@ let placeOfBirth ="Boz-Beshik";
 // alert(lastName);
 // alert(placeOfBirth);
 firstName = "Al";
-alert(firstName);
 lastName ="abdy";
-alert(lastName);
 placeOfBirth = "Boz";
+
+alert(firstName);
+alert(lastName);
 alert(placeOfBirth);
+console.log(firstName)
