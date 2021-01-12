@@ -3,5 +3,7 @@ let lastName = "Abdyiskakov";
 let placeOfBirth ="Boz-Beshik";
 
 alert(firstName);
-alert(lastName);
-alert(placeOfBirth);
+// alert(lastName);
+// alert(placeOfBirth);
+firstName = "Al";
+alert(firstName);
