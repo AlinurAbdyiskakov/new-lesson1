@@ -51,18 +51,21 @@ footer a {
     text-decoration: none;
 }
 
-iframe {
-    border-radius: 15px;
-}
-
 main {
-    text-align: center;
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
 }
 
-main a {
-    color: blue;
+main img {
+    margin-top: 20px;
+}
+
+main h1 {
+    margin-top: 5px;
+}
+
+main p {
+    margin-bottom: 10px;
 }
