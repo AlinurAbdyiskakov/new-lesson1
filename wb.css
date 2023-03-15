@@ -53,6 +53,7 @@ footer a {
 
 iframe {
     border-radius: 15px;
+    margin: 10px 10px;
 }
 
 main {
@@ -60,6 +61,11 @@ main {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+aside {
+    display: flex;
     flex-wrap: wrap;
 }
 
