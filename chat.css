@@ -31,11 +31,30 @@ li span {
     margin: auto;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    padding: 0 10px;
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    bottom: 0;
+    height: 100%;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
 #message-form {
     margin: 0 auto;
     text-align: center;
     position: fixed;
-    left: 10;
+    left: 0;
     bottom: 0;
     margin-bottom: 10px;
     padding: 10px;
@@ -51,8 +70,9 @@ input {
 }
 
 button {
-    width: 25%;
-    height: 38px;
+    margin-top: 10px;
+    text-align: center;
+    min-width: 25px;
     border-radius: 15px;
     color: #f3f2f3;
     background-color: #440c81;
@@ -70,4 +90,41 @@ button {
 .sent span {
     margin-left: 5px;
     color: #6929ca;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url(./шьп/Без\ названия.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+    padding: 10px;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: #fff;
+    flex-wrap: wrap;
+}
+
+header img {
+    border-radius: 50%;
+    width: 140px;
+    height: 120px;
+    background-position: center;
+}
+
+header h1,
+a {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
