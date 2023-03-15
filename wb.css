@@ -51,3 +51,19 @@ footer a {
     color: black;
     text-decoration: none;
 }
+
+iframe {
+    border-radius: 15px;
+}
+
+main {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+main a {
+    color: blue;
+}
