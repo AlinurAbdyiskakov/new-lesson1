@@ -89,6 +89,8 @@ li {
 iframe {
     border-radius: 20px;
     margin: 20px;
+    width: 400px;
+    height: 200px;
 }
 
 div {

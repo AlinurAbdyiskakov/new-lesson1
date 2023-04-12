@@ -52,6 +52,8 @@ aside h1 {
 
 main {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 iframe {
@@ -59,6 +61,26 @@ iframe {
     height: 150px;
     border-radius: 18px;
     margin-top: 20px;
+}
+
+.kz {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.kz div {
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.kz div a {
+    font-size: 20px;
 }
 
 .nu {
