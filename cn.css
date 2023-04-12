@@ -69,3 +69,30 @@ main h1 {
 main p {
     margin-bottom: 10px;
 }
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+li {
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+    text-shadow: 0 0 0 10px black;
+    margin: 10px;
+}
+
+iframe {
+    border-radius: 20px;
+    margin: 20px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
